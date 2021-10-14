@@ -1,99 +1,78 @@
 ﻿{
-    "static_fire_date_utc": null,
-    "static_fire_date_unix": null,
     "net": false,
     "window": 0,
-    "success": null,
+    "success": true,
     "failures": [],
-    "details": null,
-    "ships": [],
-    "capsules": [],
-    "flight_number": 136,
-    "name": "Crew-3",
-    "date_utc": "2021-10-31T06:37:00.000Z",
-    "date_unix": 1635662220,
-    "date_local": "2021-10-31T02:37:00-04:00",
+    "details": "SpaceX will launch the second demonstration mission of its Crew Dragon vehicle as part of NASA's Commercial Crew Transportation Capability Program (CCtCap), carrying two NASA astronauts to the International Space Station. Barring unexpected developments, this mission will be the first crewed flight to launch from the United States since the end of the Space Shuttle program in 2011. DM-2 demonstrates the Falcon 9 and Crew Dragon's ability to safely transport crew to the space station and back to Earth and it is the last major milestone for certification of Crew Dragon. Initially the mission duration was planned to be no longer than two weeks, however NASA has been considering an extension to as much as six weeks or three months. The astronauts have been undergoing additional training for the possible longer mission.",
+    "flight_number": 94,
+    "name": "CCtCap Demo Mission 2",
+    "date_utc": "2020-05-30T19:22:00.000Z",
+    "date_unix": 1590866520,
+    "date_local": "2020-05-30T15:22:00-04:00",
     "date_precision": "hour",
-    "upcoming": true,
+    "upcoming": false,
     "auto_update": true,
     "tbd": false,
-    "launch_library_id": "0d779392-1a36-4c1e-b0b8-ec11e3031ee6",
-    "id": "5fe3b15eb3467846b324216d",
+    "launch_library_id": null,
+    "id": "5eb87d46ffd86e000604b388",
     "payload_details": {
-        "name": "Crew-3",
+        "name": "CCtCap Demo Mission 2",
         "type": "Crew Dragon",
         "reused": false,
-        "launch": "5fe3b15eb3467846b324216d",
+        "launch": "5eb87d46ffd86e000604b388",
         "customers": [
             "NASA (CCtCap)"
         ],
-        "norad_ids": [],
         "nationalities": [
             "United States"
         ],
         "manufacturers": [
             "SpaceX"
         ],
-        "mass_kg": null,
-        "mass_lbs": null,
+        "mass_kg": 9525,
+        "mass_lbs": 20999.03,
         "orbit": "ISS",
         "reference_system": "geocentric",
         "regime": "low-earth",
         "longitude": null,
-        "semi_major_axis_km": null,
-        "eccentricity": null,
-        "periapsis_km": null,
-        "apoapsis_km": null,
-        "inclination_deg": null,
-        "period_min": null,
+        "semi_major_axis_km": 6637.784,
+        "eccentricity": 0.0155448,
+        "periapsis_km": 156.466,
+        "apoapsis_km": 362.832,
+        "inclination_deg": 51.6858,
+        "period_min": 89.7,
         "lifespan_years": null,
-        "epoch": null,
-        "mean_motion": null,
-        "raan": null,
-        "arg_of_pericenter": null,
-        "mean_anomaly": null,
-        "id": "5fe3b3bab3467846b3242174"
+        "epoch": "2020-08-02T11:41:07.000Z",
+        "mean_motion": 16.05343597,
+        "raan": 119.2669,
+        "arg_of_pericenter": 11.5318,
+        "mean_anomaly": 170.7584,
+        "id": "5eb0e4d1b6c3bb0006eeb257"
     },
     "crew_details": [
         {
+            "role": "Joint Commander",
+            "name": "Robert Behnken",
+            "agency": "NASA",
+            "image": "https://imgur.com/0smMgMH.png",
+            "wikipedia": "https://en.wikipedia.org/wiki/Robert_L._Behnken",
+            "launches": [
+                "5eb87d46ffd86e000604b388"
+            ],
+            "status": "active",
+            "id": "5ebf1a6e23a9a60006e03a7a"
+        },
+        {
             "role": "Commander",
-            "name": "Raja Chari",
+            "name": "Douglas Hurley",
             "agency": "NASA",
-            "image": "https://imgur.com/uKj6DOF.png",
-            "wikipedia": "https://en.wikipedia.org/wiki/Raja_Chari",
-            "launches": [],
+            "image": "https://i.imgur.com/ooaayWf.png",
+            "wikipedia": "https://en.wikipedia.org/wiki/Douglas_G._Hurley",
+            "launches": [
+                "5eb87d46ffd86e000604b388"
+            ],
             "status": "active",
-            "id": "5fe3c587b3467846b3242198"
-        },
-        {
-            "role": "Pilot",
-            "name": "Thomas Marshburn",
-            "agency": "NASA",
-            "image": "https://imgur.com/9RmQJZw.png",
-            "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Marshburn",
-            "launches": [],
-            "status": "active",
-            "id": "5fe3c5beb3467846b3242199"
-        },
-        {
-            "role": "Mission Specialist 1",
-            "name": "Matthias Maurer",
-            "agency": "ESA",
-            "image": "https://imgur.com/yBPw4mX.png",
-            "wikipedia": "https://en.wikipedia.org/wiki/Matthias_Maurer",
-            "launches": [],
-            "status": "active",
-            "id": "5fe3c5f6b3467846b324219a"
-        },
-        {
-            "role": "Mission Specialist 2",
-            "name": "Kayla Barron",
-            "agency": "NASA",
-            "image": "https://i.imgur.com/2rXxSFw.png",
-            "wikipedia": "https://en.wikipedia.org/wiki/Kayla_Barron",
-            "launches": [],
-            "status": "active",
-            "id": "60c4b5ad4e041c0b356db393"
+            "id": "5ebf1b7323a9a60006e03a7b"
         }
     ],
     "launch_pad_details": {
